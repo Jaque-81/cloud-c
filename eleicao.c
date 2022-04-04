@@ -148,7 +148,9 @@ if(voto5 == 0) {
     brancos = brancos + 1;
 }
 
- 
+if( votosGabrielle == 1 && votosLara == 1 && votosCaio == 1 && votosKalebe == 1){
+  printf("\n\n==========================[ EMPATE  ]============================\n\n");
+  }   
 
 printf("\n\n==========================[  RESULTADO  ]============================\n\n");
 printf("Votos para Gabrielle: %d\n", votosGabrielle);
